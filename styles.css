@@ -104,10 +104,7 @@ html {
   border: 1px solid black;
 }
 
-.edge {
-  margin-left: 15px;
-}
-
 #equals {
-  padding-top: 40px;
+  flex-grow: 1;
+  text-align: center;
 }
