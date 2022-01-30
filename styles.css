@@ -104,6 +104,10 @@ html {
   border: 1px solid black;
 }
 
+.edge {
+  margin-left: 15px;;
+}
+
 #equals {
   flex-grow: 1;
   text-align: center;

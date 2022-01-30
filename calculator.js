@@ -128,6 +128,16 @@ function calculator() {
           answer = undefined;
           display.innerText = "";
           break;
+        case 'neg':
+          let turn = parseFloat(display.innerText);
+          turn = turn * -1;
+          display.innerText = `${turn.toString()}`;
+          break;
+        case 'prcnt':
+          let perc = parseFloat(display.innerText);
+          perc = perc / 100;
+          display.innerText = `${perc.toString()}`
+          break;
       }
     });
   }
