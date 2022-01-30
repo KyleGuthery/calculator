@@ -13,13 +13,20 @@ html {
   height: 100%;
 }
 
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 #calculator {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 220px;
   background-color: #4c71bf;
+  border-radius: 2%;
 }
 
 .row {
@@ -74,4 +81,24 @@ html {
   text-align: right;
   width: 180px;
   margin-bottom: 5px;
+}
+
+#break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  margin-bottom: 5px;
+}
+
+#solar {
+  display: flex;
+  justify-content: center;
+}
+
+.solar {
+  height: 20px;
+  width: 15px;
+  background-color: #3d433f;
+  border: 1px solid black;
 }
