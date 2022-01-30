@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: displayFont;
+  src:url(DSEG7ClassicMini-Bold.ttf);
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  width: 40px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 4px 2px;
+}
+
+#container {
+
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background-color: #4c71bf;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+#display {
+  width: 160px;
+  border: 5px solid #33362b;
+  text-align: right;
+  padding: 5px;
+  margin: 10px;
+  font-family: displayFont;
+  background-color: #d7d6d1;
+  font-size: larger;
+}
+
+.red-button {
+  color: #f8f8f8;
+  background-color: #ef3a4b;
+}
+
+.white-button {
+  color: #4c71bf;
+  background-color: #f8f8f8;
+}
+
+#buttons {
+  padding: 4px;
+  border: 1px solid #334d86;
+  margin: 0px 10px 10px 10px;
+}
+
+#logo {
+  font-family: serif;
+  font-weight: bolder;
+  color: #f8f8f8;
+  font-size: large;
+  text-align: right;
+  width: 180px;
+  margin-bottom: 5px;
+}
