@@ -24,7 +24,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 220px;
+  width: 230px;
   background-color: #4c71bf;
   border-radius: 2%;
 }
@@ -37,6 +37,7 @@ html {
 
 #display {
   width: 160px;
+  height: 20px;
   border: 5px solid #33362b;
   text-align: right;
   padding: 5px;
@@ -101,4 +102,12 @@ html {
   width: 15px;
   background-color: #3d433f;
   border: 1px solid black;
+}
+
+.edge {
+  margin-left: 15px;
+}
+
+#equals {
+  padding-top: 40px;
 }
