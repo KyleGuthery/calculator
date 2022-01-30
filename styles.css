@@ -13,23 +13,12 @@ html {
   height: 100%;
 }
 
-button {
-  width: 40px;
-  height: 30px;
-  border: 1px solid black;
-  margin: 4px 2px;
-}
-
-#container {
-
-}
-
 #calculator {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 220px;
   background-color: #4c71bf;
 }
 
@@ -48,6 +37,7 @@ button {
   font-family: displayFont;
   background-color: #d7d6d1;
   font-size: larger;
+  letter-spacing: .1em;
 }
 
 .red-button {
@@ -58,6 +48,16 @@ button {
 .white-button {
   color: #4c71bf;
   background-color: #f8f8f8;
+}
+
+.white-button,
+.red-button {
+  width: 40px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 4px 2px;
+  padding: 1px 0 0 2px;
+  font-family: sans-serif;
 }
 
 #buttons {
