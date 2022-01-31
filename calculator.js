@@ -66,8 +66,11 @@ function scrn(currentButton) {
             } else {
               display.innerText += currentButton;
             }
-    } else if (numberTwo == undefined) {
+    } else if (numberTwo == undefined &&
+               display.innerText.length < 9) {
         display.innerText += currentButton;
+      } else if (display.innerText.length >=9) {
+        return;
       } else {
           display.innerText = "";
           display.innerText += currentButton;
