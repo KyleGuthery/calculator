@@ -110,14 +110,8 @@ function calculator() {
           scrn(currentButton);
           break;
         case '+':
-          operator(currentButton);
-          break;
         case '-':
-          operator(currentButton);
-          break;
         case '*':
-          operator(currentButton);
-          break;
         case '/':
           operator(currentButton);
           break;
